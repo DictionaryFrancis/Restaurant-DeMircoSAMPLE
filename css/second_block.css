@@ -1,0 +1,37 @@
+.title-second_block{
+    margin: 150px 30px 50px 30px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 1px 0px black;
+    font-size: 42px;
+    padding: 0 460px;
+}
+
+
+.img-second_block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-1-second_block img,.img-2-second_block img,.img-3-second_block img{
+    width: 300px;
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: transform .2s;
+}
+
+.img-1-second_block img:hover,.img-2-second_block img:hover,.img-3-second_block img:hover {
+    -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+
+.img-1-second_block,.img-2-second_block,.img-3-second_block{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-shadow: 1px 0px black;
+}
