@@ -1,0 +1,20 @@
+.section-allergies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+padding: 10px;
+}
+
+.flex-allergie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.flex-allergie p:first-child{
+    padding: 5px;
+    border: 1px solid black;
+}
