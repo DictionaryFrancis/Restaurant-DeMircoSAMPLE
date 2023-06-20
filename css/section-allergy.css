@@ -1,9 +1,22 @@
+.centering-section-allergie{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
 .section-allergies{
     display: flex;
-    justify-content: center;
+    margin: auto 240px;
     align-items: center;
-    justify-content: space-around;
-padding: 10px;
+    padding: 10px;
+}
+
+.title-section-allergies{
+    font-size: 32px;
+    text-shadow: 1px 0 black;
+    margin: 24px 100px;
 }
 
 .flex-allergie{
@@ -15,6 +28,33 @@ padding: 10px;
 }
 
 .flex-allergie p:first-child{
-    padding: 5px;
+    font-size: 24px;
+    padding: 7px 16px;
     border: 1px solid black;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.flex-allergie div{
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+    text-shadow: 1px 0 black;
+}
+
+.number-allergy{
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+.aside-img-4{
+    width: 373px;
+    height: 619px;
+    position: absolute;
+    top: 8000px;
+    right: 0px;
 }
