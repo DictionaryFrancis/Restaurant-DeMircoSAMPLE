@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+.banner-info-time{
+    background: rgb(37,36,34);
+background: linear-gradient(1deg, rgba(37,36,34,1) 0%, rgba(48,67,82,1) 66%, rgba(95,108,117,1) 93%, rgba(105,117,124,1) 96%, rgba(113,124,130,1) 100%, rgba(180,180,178,1) 100%, rgba(46,44,43,1) 100%);
+    color: white;
+    width: 100%;
+    position: relative;
+    bottom: 40px;
+    height: 950px;
+    /*translate: translateY(20%);
+    transition: all 1s ease-out;
+    */
+}
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    margin-top: 40px;
+    padding: 70px 0 0;
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.flex-info-time{
+    display: flex;
+    justify-content: center;
+}
+
+.hours-info-time{
+    padding: 20px 100px 0;
+    font-family: 'Poppins';
+}
+
+.hours-info-time .title{
+    font-size: 40px;
+}
+
+.first-flex-info-time,
+.second-flex-info-time{
+    font-size: 25px;
+}
+
+.first-flex-info-time p:first-child,
+.second-flex-info-time p:first-child{
+    border-bottom: 2px solid #8b6f5c;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.first-flex-info-time p:last-child,
+.second-flex-info-time p:last-child{
+    margin: 0;
+}
+
+.close-time{
+    margin: 0 0 24px;
+}
+
+.hours-info-time a{
+    padding-top: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.phone-number,.email{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+
+.uil-map{
+    color: white;
+    font-size: 35px;
+}
+
+.uil-phone,.uil-email {
+    color: white;
+    font-size: 30px;
+}
+
+.contact-us{
+    font-family: Poppins;
+    padding: 20px 100px 0 0;
+}
+
+.contact-us-title{
+    font-size: 40px;
+}
+
+.contact-us-info{
+    margin: 25px 0;
+    font-size: 25px;
+    padding: 23px 0;
+}
+
+.contact-us-info strong{
+    border-bottom: 2px solid #8b6f5c;
+    font-weight: 500;
+}
+
+.flex-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.uil-instagram{
+    font-size: 28px;
+    color: white;
+}
+
+.contact-us-instagram{
+    font-size: 20px;
+}
+
+.instagram{
+    text-decoration: none;
+    color: white;
+}
